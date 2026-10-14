@@ -15,8 +15,8 @@
 DL_detection/continuous/
 DL_detection/runs/
 DL_detection/models/
-DL_detection/fmf*/templates_cache/
-DL_detection/fmf*/catalogs/daily_*/
+DL_detection/**/templates_cache/
+DL_detection/**/daily_*/
 DL_detection/local_magnitudes/**/*.npz
 DL_detection/local_magnitudes/**/*.xml
 
