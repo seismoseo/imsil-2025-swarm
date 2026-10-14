@@ -1,0 +1,45 @@
+{
+ "frozen": "2026-10-08T20:07:03",
+ "catalog": "catalogs/fmf_final/imsil_fmf_catalog.csv",
+ "source": "fmf_aligned/catalogs/fmf_imsil_catalog_imsil_5_20H_aligned_mad10_seg_nofloor.csv",
+ "code": "fmf_aligned/ (Haenam FMF code + scan._to_grid grid alignment, decision D20)",
+ "run": "FMF_RUN=imsil_5_20H_aligned_mad10",
+ "band_hz": [
+  5,
+  20
+ ],
+ "windows": {
+  "P": "1.5 s on Z from P-0.5 s",
+  "S": "2.0 s from S-0.5 s"
+ },
+ "s_components": "S on N/E; on Z at NAWB and KWJ2 (D12)",
+ "stations": "22 KS within 60 km (D11), fmf_aligned/stations_imsil_5_20H.csv",
+ "templates": "28 events of catalogs/reference_25m/DL_reference_25m.csv (catalogs/imsil_templates_ref25.csv)",
+ "template_snr_gate": 1.2,
+ "threshold": {
+  "mad_k": 10.0,
+  "segmented": true,
+  "abs_cc_floor": null,
+  "min_present_stations": 4,
+  "merge_s": 4.0,
+  "decision": "D23"
+ },
+ "excluded_templates": [],
+ "decision_D13": "none",
+ "period": "2025-09-01 .. 2026-01-31 (153 days, one scan process per day)",
+ "counts": {
+  "detections": 235,
+  "reference": 28,
+  "new": 207
+ },
+ "inputs": {
+  "fmf_aligned/catalogs/fmf_imsil_catalog_imsil_5_20H_aligned_mad10_seg_nofloor.csv": "d4e53d71e9f87d8ffee5cde618892427c0437351f3b378355c66b45fcb77916f",
+  "catalogs/imsil_templates_ref25.csv": "4acfe97ac4caf379ff3dd27fea6af880e8174766f941cfe1ff2b8b0bb3d7a158",
+  "catalogs/reference_25m/DL_reference_25m.csv": "c08825adb1d768c518039b65c5250e56f26d9cc6941036872da6a403ade3a667",
+  "fmf_aligned/stations_imsil_5_20H.csv": "79ef3ea1094dd0ce766584238f54aa6a15c7de00477d19a13fe1141e550d066a",
+  "fmf_aligned/templates_cache/imsil_shelly_imsil_5_20H_aligned_mad10.npz": "721985a475ace4bc400f34d97b4395580cbe286d13c03917152b389ee3bcbab9",
+  "fmf_aligned/scan.py": "0b6afe8e85c3f67f5f20bdcaabef4d7abae713e644d79f50e9896dd02dd8da5e",
+  "fmf_aligned/templates.py": "51baf42ae5073ed27bcfbbec68c5c80a9909f50b715d016d927fa4f3950d99bd",
+  "fmf_aligned/config.py": "2175351c669bfbe0d22592bd7b927de34bd3dd0ea188f0fa065a2533b547a2c5"
+ }
+}

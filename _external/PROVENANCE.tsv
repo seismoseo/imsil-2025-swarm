@@ -1,0 +1,16 @@
+item	source	commit	checksum	bytes	date
+EQNet	moho:/home/msseo/works/14.EQNet/EQNet	ad492ef0fe93493662d324f7747851be2c9fc7b8	tree (diff: provenance/EQNet.diff)	85381427	2026-10-07 18:11
+korea-cluster-relocation	moho:/home/msseo/works/15.PocketQuake/external/korea-cluster-relocation	663c26bcdcbcd0440e7682ec7298a8046764bc49	tree (diff: provenance/korea-cluster-relocation.diff)	1231848	2026-10-07 18:11
+fast_matched_filter	moho:/home/msseo/works/FMF/fast_matched_filter	25e8263eadf9d9c32b6da15b93c7a5cb930cd56f	tree (diff: provenance/fast_matched_filter.diff)	21368200	2026-10-07 18:11
+HypoDD	moho:/home/msseo/Downloads/HypoDD	fb40407fb768cbdc23a11e27bc841f5d4a98abb7	tree (diff: provenance/HypoDD.diff)	61831425	2026-10-07 18:11
+model_99.pth	moho:/home/msseo/works/14.EQNet/EQNet/docs/model_phasenet_plus/model_99.pth	-	sha256:f1643330e34bffaa4f7e3a5f7dd9205fb4019d76e5b9b6cb598232360d22f384	18810308	2026-10-07 18:11
+hypoDD	moho:/home/msseo/bin/hypoDD	fb40407+diff	md5:e36d745c61a6f4508fd6c0dbab89e7c7	227696	2026-10-07 18:11
+hyp1.40 (wrapper)	PAGO:/home/msseo/bin/hyp1.40	-	md5:dd771a6d51a0f61e714f6fc79ad99d35	2387432	2026-10-07 18:11
+ph2dt (wrapper)	PAGO:/home/msseo/bin/ph2dt	-	md5:91e9582c38146121330d53610812d2d0	44696	2026-10-07 18:11
+ncsn2pha (wrapper)	PAGO:/home/msseo/bin/ncsn2pha	-	md5:614663792bf3a21a2bec048dfcc27464	22352	2026-10-07 18:11
+kma_entire_catalog	moho:/home/msseo/works/07.SeismoStats/catalog/kma_entire_catalog_260309.csv	-	sha256:56b7600cf0ea821fdd1f33a4be10e0ca2e8b86fe814a250010fcffae1f3ab5e5	662142	2026-10-07 18:11
+taup_npz	moho:/home/msseo/works/27.Haenam_sequence/data/stations/taup/kim1983_buan.npz	-	sha256:a3bb6f14cd920cf7334bc63dc6eb058ff4e14089ee7fb91435cb8b5d50d5b37a	179283	2026-10-07 18:11
+taup_tvel	moho:/home/msseo/works/27.Haenam_sequence/data/stations/taup/kim1983_buan.tvel	-	sha256:5e8c760ebf5f2e4e4820a0d323a41315a8bd5b1356dc00fcddc0242d9622b256	6391	2026-10-07 18:11
+JU_station.xml	moho:/home/msseo/works/27.Haenam_sequence/JNU_data/JU_station.xml	-	sha256:c15e1f7aadcc272c6a5749c8641784d118cd4204752ba9e4dd200e8a92cda1ca	3072543	2026-10-07 18:11
+KS_KG_metadata_1.0.2.xml	PAGO:/home/msseo/works/35.240612_Buan_EQ/5.P_wave_moment_tensor_inversion/Response/KS_KG_metadata_1.0.2.xml/KS_KG_metadata_1.0.2.xml	-	sha256:87114e03182b205e89ef46589c7805b51fe23dcc01ac2c14345a0914303a6b2d	147853379	2026-10-07 18:11
+RESP.KS.* (1512 files)	PAGO:/home/msseo/works/72.2025_Imsil_swarm/kma_waveforms/RESP/2025007611.r	-	md5(cat):8396f24500ac894c9f2b86f61dcddf44	-	2026-10-07 18:11

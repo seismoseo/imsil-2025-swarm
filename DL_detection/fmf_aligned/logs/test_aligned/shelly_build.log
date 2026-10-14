@@ -1,0 +1,5 @@
+[shelly] 28 templates x 22 stations | P win 1.5s, S win 2.0s, pre 0.5s | S on Z at 2 stations, on N/E at 20 | SNR gate >= 2.0
+[shelly] Z dropped at 0 (template,station) where S-P < 0.5s
+[shelly] 123 (station,comp,day) groups to read
+[shelly] median live: 12 P(Z) + 29 S(horiz) channels/template
+[shelly] wrote /home/msseo/works/72.2025_Imsil_swarm/DL_detection/fmf_aligned/templates_cache/imsil_shelly_test_aligned.npz  (P 150 samp, S 200 samp)

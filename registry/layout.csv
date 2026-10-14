@@ -1,0 +1,7 @@
+product,path,note
+tm_templates_195,DL_detection/catalogs/imsil_kma24.csv,"Haenam: the 195-event relocated template catalog used as the known-event table (event_id, origin_time_UTC, ML). Imsil: the 24 KMA-listed events (UTC, KMA ML), built by DL_detection/catalogs/build_imsil_kma24.py"
+tm_dir,DL_detection/fmf,"FMF working directory (as in Haenam)"
+tm_templates_594,DL_detection/catalogs/imsil_templates_ref25.csv,"Haenam: the 594-event reference template catalog. Imsil: templates built from the 25 m reference catalog by DL_detection/catalogs/build_template_catalog_ref25.py"
+reference_25m_dir,DL_detection/catalogs/reference_25m,"Imsil 25 m reference catalog directory (DL_reference_25m.csv + README + source hashes)"
+plane195,,"Haenam canonical 195-event plane (results/plane195.npz); no Imsil counterpart"
+frame_195ev_KSKG,,"Haenam canonical KS/KG relocation frame (195 events); no Imsil counterpart"

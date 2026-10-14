@@ -1,0 +1,46 @@
+# Public repository of the 2025 Imsil swarm project: code, notebooks, catalogs, decision log and report.
+# Waveforms, third-party data/code, model weights and run directories are not published.
+
+# waveform and data trees
+/continuous_mara/
+/continuous_repaired/
+/kma_waveforms/
+/waveforms_100km/
+/mainshock_waveforms/
+/data/
+/papers/
+/3.PhaseNO/waveforms/
+/3.PhaseNO/results/
+/5.Detection_HypoInv/event_waveforms/
+DL_detection/continuous/
+DL_detection/runs/
+DL_detection/models/
+DL_detection/fmf*/templates_cache/
+DL_detection/fmf*/catalogs/daily_*/
+DL_detection/local_magnitudes/**/*.npz
+DL_detection/local_magnitudes/**/*.xml
+
+# third-party code and weights (sources and checksums in _external/PROVENANCE.tsv)
+/_external/*
+!/_external/PROVENANCE.tsv
+/4.PyOcto/pyocto/
+/7.KFPicker/
+
+# logs: keep only the frozen run parameters
+DL_detection/logs/*
+!DL_detection/logs/full_run_params.json
+/envs/*.log
+
+# private working notes
+/CLAUDE.md
+
+# waveform files anywhere
+*.sac
+*.SAC
+*.mseed
+*.miniseed
+
+# caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

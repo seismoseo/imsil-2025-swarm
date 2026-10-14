@@ -1,0 +1,32 @@
+{
+ "reference": "Imsil 2025 DL catalog, 25 m bootstrap reference (Haenam rule)",
+ "built": "2026-10-08T11:46:41",
+ "selection": "All E/N/depth (Q97.5-Q2.5)/2 finite and <= 25 m; calculated before rounding. No phase/station, ML, plane-distance or depth gate (the relocation itself used --min-depth as run).",
+ "counts": {
+  "relocated": 34,
+  "retained": 28,
+  "retained_KMA_listed": 22
+ },
+ "inputs": [
+  {
+   "name": "relocated",
+   "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/catalogs/imsil_dl_relocated.csv",
+   "sha256": "e0003bcbe8b6e531f6d2d3ff8ee0d0abe4e1bc49c41d5404751934692794cf0b"
+  },
+  {
+   "name": "manifest",
+   "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/runs/hypodd_dl/event_manifest.csv",
+   "sha256": "e46b56593086bf17abcd7b9d78753ab588cac50b5594508f697d6a324f21db60"
+  },
+  {
+   "name": "errors",
+   "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/runs/hypodd_dl/2.HypoDD/02.dt.cc/bootstrap_errors.csv",
+   "sha256": "c4a238ada43a2725c9e09e2c894f467e625f7d70a4a0e8e7fdebcb4b6a775f81"
+  },
+  {
+   "name": "samples",
+   "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/runs/hypodd_dl/2.HypoDD/02.dt.cc/bootstrap_samples.npz",
+   "sha256": "e9a69e2fb36aa9237bec5c73d21478e2b9025b96eb3951643e286282f65f1d0c"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "hash": "484d60028ac72246",
+ "frozen": "2026-10-07T19:57:01",
+ "PNPLUS_MIN_PROB": 0.2,
+ "REGION_STRICT": {
+  "lat": [
+   34.85,
+   36.25
+  ],
+  "lon": [
+   126.5,
+   128.1
+  ],
+  "zlim": [
+   0,
+   30
+  ],
+  "time_before": 300,
+  "n_picks": 6,
+  "n_p_picks": 3,
+  "n_s_picks": 3,
+  "n_p_and_s_picks": 2,
+  "pick_match_tolerance": 1.0,
+  "min_node_size": 2.0,
+  "min_node_size_location": 0.5,
+  "refinement_iterations": 8,
+  "min_interevent_time": 2.0,
+  "n_threads": 16
+ },
+ "HAENAM_QC": {
+  "erh": 5.0,
+  "erz": 5.0,
+  "gap": 180.0,
+  "num": 7,
+  "rms": 1.0
+ },
+ "HAENAM_QC_A": {
+  "erh": 5.0,
+  "erz": 5.0,
+  "gap": 180.0,
+  "num": 7,
+  "rms": 0.7
+ },
+ "HAENAM_QC_B": {
+  "erh": 10.0,
+  "erz": 10.0,
+  "gap": 300.0,
+  "num": 5,
+  "rms": 1.0
+ },
+ "HYP_DIS": "4 50 1 3",
+ "HYP_ZTR": "10 F",
+ "CHANNEL_POLICY": {
+  "KS": [
+   "HH",
+   "EL",
+   "HG"
+  ],
+  "KG": [
+   "HH",
+   "EL",
+   "HG"
+  ],
+  "JU": [
+   "HH"
+  ]
+ },
+ "CHANNEL_EXCLUDE": {
+  "KS.HMPA": [
+   "HH"
+  ]
+ },
+ "SAMPLING_RATE": 100.0,
+ "ANTIALIAS": {
+  "freq": 45.0,
+  "corners": 8,
+  "zerophase": true
+ },
+ "weights_sha256": "f1643330e34bffaa4f7e3a5f7dd9205fb4019d76e5b9b6cb598232360d22f384"
+}

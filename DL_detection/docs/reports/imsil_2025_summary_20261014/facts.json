@@ -1,0 +1,1150 @@
+{
+ "meta": {
+  "generated": "2026-10-14T18:24:05+09:00",
+  "notebook": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/notebooks/16_report_figures.ipynb",
+  "project_root": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection",
+  "n_facts": 228
+ },
+ "facts": {
+  "meta.date": {
+   "value": "14 October 2026",
+   "source": "this notebook",
+   "how": ""
+  },
+  "data.n_sta": {
+   "value": "54",
+   "source": "station_table/stations.csv",
+   "how": "KS stations within 100 km (KWJU dropped, D2)"
+  },
+  "data.n_fmf_sta": {
+   "value": "22",
+   "source": "fmf_aligned/stations_imsil_5_20H.csv",
+   "how": ""
+  },
+  "data.fmf_s_on_z": {
+   "value": "NAWB, KWJ2",
+   "source": "fmf_aligned/stations_imsil_5_20H.csv",
+   "how": "S window on Z (D12)"
+  },
+  "data.long_s_on_z_n": {
+   "value": "9",
+   "source": "fmf_aligned/stations_imsil_5_20H_long.csv",
+   "how": "D26"
+  },
+  "data.n_days": {
+   "value": "151",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": "days with located events"
+  },
+  "dl.n_located": {
+   "value": "1,695",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": ""
+  },
+  "dl.n_A": {
+   "value": "529",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": ""
+  },
+  "dl.n_B": {
+   "value": "659",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": ""
+  },
+  "dl.n_box": {
+   "value": "125",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": ""
+  },
+  "dl.n_box_AB": {
+   "value": "84",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": ""
+  },
+  "dl.n_P": {
+   "value": "484,833",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.n_S": {
+   "value": "638,314",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.box_before": {
+   "value": "31",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.box_swarm": {
+   "value": "39",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.box_after": {
+   "value": "55",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.kma_region": {
+   "value": "86 of 89",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.kma_imsil": {
+   "value": "24 of 24",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "dl.shallow_box": {
+   "value": "46",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "smoke.epi_km": {
+   "value": "0.11",
+   "source": "notebooks/02_smoke_test_swarm_days.ipynb",
+   "how": ""
+  },
+  "smoke.depth_km": {
+   "value": "14.6",
+   "source": "notebooks/02_smoke_test_swarm_days.ipynb",
+   "how": ""
+  },
+  "smoke.dP": {
+   "value": "0.01",
+   "source": "notebooks/02_smoke_test_swarm_days.ipynb",
+   "how": ""
+  },
+  "smoke.dS": {
+   "value": "0.032",
+   "source": "notebooks/02_smoke_test_swarm_days.ipynb",
+   "how": ""
+  },
+  "rel.n_sub": {
+   "value": "34",
+   "source": "catalogs/imsil_dl_relocated.csv",
+   "how": ""
+  },
+  "rel.n_ref": {
+   "value": "28",
+   "source": "catalogs/reference_25m/DL_reference_25m.csv",
+   "how": ""
+  },
+  "rel.kma_in_ref": {
+   "value": "22 of 24",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.med95_E": {
+   "value": "1.9",
+   "source": "catalogs/reference_25m/DL_reference_25m.csv",
+   "how": "median 95 % half-width"
+  },
+  "rel.med95_N": {
+   "value": "1.3",
+   "source": "catalogs/reference_25m/DL_reference_25m.csv",
+   "how": "median 95 % half-width"
+  },
+  "rel.med95_Z": {
+   "value": "2.1",
+   "source": "catalogs/reference_25m/DL_reference_25m.csv",
+   "how": "median 95 % half-width"
+  },
+  "rel.plane04": {
+   "value": "272° / 87°",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.ext04": {
+   "value": "126 m east–west, 27 m north–south and 186 m in depth",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.flip04": {
+   "value": "134",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.strike04": {
+   "value": "268–284°",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.dip04": {
+   "value": "84–95°",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.prev_res": {
+   "value": "1, 1, 2",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "rel.prev_n": {
+   "value": "17",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "ml.n_primary_ref": {
+   "value": "8 of 28",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.dkma_med": {
+   "value": "−0.13",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.dkma_rms": {
+   "value": "0.17",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.nawb": {
+   "value": "+0.54",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.kwj2": {
+   "value": "−0.55",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.eurb": {
+   "value": "−0.46",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "ml.nawb_B": {
+   "value": "+0.04",
+   "source": "notebooks/05a_response_precedence.ipynb",
+   "how": ""
+  },
+  "ml.kwj2_B": {
+   "value": "+0.15",
+   "source": "notebooks/05a_response_precedence.ipynb",
+   "how": ""
+  },
+  "ml.n_primary_B": {
+   "value": "14",
+   "source": "notebooks/05a_response_precedence.ipynb",
+   "how": ""
+  },
+  "ml.anchors": {
+   "value": "0",
+   "source": "notebooks/05_local_magnitudes.ipynb",
+   "how": ""
+  },
+  "fmf.n_tpl": {
+   "value": "28",
+   "source": "catalogs/imsil_templates_ref25.csv",
+   "how": ""
+  },
+  "fmf.n_det": {
+   "value": "235",
+   "source": "catalogs/fmf_final/imsil_fmf_catalog.csv",
+   "how": ""
+  },
+  "fmf.n_ref": {
+   "value": "28",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "fmf.n_new": {
+   "value": "207",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "fmf.n_window": {
+   "value": "234",
+   "source": "catalogs/fmf_final",
+   "how": "2025-11-02 19:30 to 11-03 01:30 UTC"
+  },
+  "fmf.late": {
+   "value": "04:23:32",
+   "source": "catalogs/fmf_final",
+   "how": "the one detection after the window (3 Nov)"
+  },
+  "fmf.top_tpl": {
+   "value": "400005",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "fmf.top_tpl_n": {
+   "value": "51",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "fmf.top_tpl_eid": {
+   "value": "20251102202656",
+   "source": "catalogs/imsil_templates_ref25.csv",
+   "how": ""
+  },
+  "fmf.selfcc_frozen": {
+   "value": "0.841",
+   "source": "notebooks/06_fmf_template_matching.ipynb",
+   "how": ""
+  },
+  "fmf.selfcc_aligned": {
+   "value": "1.000",
+   "source": "notebooks/06_fmf_template_matching.ipynb",
+   "how": ""
+  },
+  "fmf.n_12f": {
+   "value": "187",
+   "source": "docs/decisions.csv D23",
+   "how": ""
+  },
+  "fmf.n_12nf": {
+   "value": "194",
+   "source": "docs/decisions.csv D23",
+   "how": ""
+  },
+  "fmf.n_10f": {
+   "value": "210",
+   "source": "docs/decisions.csv D23",
+   "how": ""
+  },
+  "fmf.n_10nf": {
+   "value": "235",
+   "source": "docs/decisions.csv D23",
+   "how": ""
+  },
+  "vet.iso": {
+   "value": "114",
+   "source": "notebooks/08_vet_new_fmf_detections.ipynb",
+   "how": ""
+  },
+  "vet.near": {
+   "value": "93",
+   "source": "notebooks/08_vet_new_fmf_detections.ipynb",
+   "how": ""
+  },
+  "vet.ab_iso": {
+   "value": "58",
+   "source": "notebooks/08_vet_new_fmf_detections.ipynb",
+   "how": ""
+  },
+  "vet.ab_near": {
+   "value": "18",
+   "source": "notebooks/08_vet_new_fmf_detections.ipynb",
+   "how": ""
+  },
+  "jr.n_rel": {
+   "value": "212",
+   "source": "catalogs/imsil_fmf_relocated.csv",
+   "how": ""
+  },
+  "jr.n_rel_det": {
+   "value": "184",
+   "source": "catalogs/imsil_fmf_relocated.csv",
+   "how": ""
+  },
+  "jr.n25": {
+   "value": "101",
+   "source": "catalogs/reference_25m_fmf",
+   "how": ""
+  },
+  "jr.n25_det": {
+   "value": "73",
+   "source": "catalogs/reference_25m_fmf",
+   "how": ""
+  },
+  "jr.ext": {
+   "value": "210, 29, 209",
+   "source": "notebooks/10_fmf_joint_relocation.ipynb",
+   "how": ""
+  },
+  "jr.strike_ci": {
+   "value": "267–271°",
+   "source": "notebooks/10_fmf_joint_relocation.ipynb",
+   "how": ""
+  },
+  "jr.dip_ci": {
+   "value": "87–90°",
+   "source": "notebooks/10_fmf_joint_relocation.ipynb",
+   "how": ""
+  },
+  "jr.hw_ref": {
+   "value": "1.8, 1.3, 1.2",
+   "source": "notebooks/10_fmf_joint_relocation.ipynb",
+   "how": ""
+  },
+  "jr.hw_det": {
+   "value": "16.6, 17.1, 75.9",
+   "source": "notebooks/10_fmf_joint_relocation.ipynb",
+   "how": ""
+  },
+  "p.pmin": {
+   "value": "0.2",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.fs": {
+   "value": "100",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.n_picks": {
+   "value": "6",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.n_p": {
+   "value": "3",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.n_s": {
+   "value": "3",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.n_ps": {
+   "value": "2",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.box_lat": {
+   "value": "34.85–36.25° N",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.box_lon": {
+   "value": "126.50–128.10° E",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.zlim": {
+   "value": "0–30",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.gap": {
+   "value": "180",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.num": {
+   "value": "7",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.rms": {
+   "value": "1",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.err": {
+   "value": "5",
+   "source": "logs/full_run_params.json",
+   "how": ""
+  },
+  "p.zfloor": {
+   "value": "10",
+   "source": "docs/decisions.csv D5",
+   "how": ""
+  },
+  "p.xc_band": {
+   "value": "5–20",
+   "source": "reloc/imsil_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_cc": {
+   "value": "0.7",
+   "source": "reloc/imsil_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_win": {
+   "value": "0.5",
+   "source": "reloc/imsil_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_interp": {
+   "value": "1,000",
+   "source": "reloc/imsil_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.obscc": {
+   "value": "4",
+   "source": "reloc/imsil_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.nboot": {
+   "value": "1,000",
+   "source": "catalogs/reference_25m*/ n_boot",
+   "how": ""
+  },
+  "p.bound": {
+   "value": "25",
+   "source": "catalogs/reference_25m_fmf/selection_manifest.json",
+   "how": ""
+  },
+  "p.fmf_band": {
+   "value": "5–20",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_mad": {
+   "value": "10",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_minsta": {
+   "value": "4",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_merge": {
+   "value": "4",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_snr": {
+   "value": "1.2",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_pwin": {
+   "value": "1.5",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_swin": {
+   "value": "2.0",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "p.fmf_pre": {
+   "value": "0.5",
+   "source": "catalogs/fmf_final/settings.json",
+   "how": ""
+  },
+  "dl.days": {
+   "value": "153",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "kma.n": {
+   "value": "24",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "kma.ml": {
+   "value": "1.0–1.9",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "kma.t0": {
+   "value": "20:05",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "kma.t1": {
+   "value": "00:35",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "kma.t0_kst": {
+   "value": "05:05",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": "KST = UTC + 9 h"
+  },
+  "kma.t1_kst": {
+   "value": "09:35",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "kma.dur": {
+   "value": "4.5",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": "hours"
+  },
+  "kma.mlmax_t": {
+   "value": "20:38:35",
+   "source": "catalogs/imsil_kma24.csv",
+   "how": ""
+  },
+  "long.imsb_start": {
+   "value": "2019-03-18",
+   "source": "docs/decisions.csv D25",
+   "how": ""
+  },
+  "data.nearest": {
+   "value": "IMSB (6.9 km)",
+   "source": "station_table/stations.csv",
+   "how": ""
+  },
+  "data.fmf_maxd": {
+   "value": "59",
+   "source": "station_table/stations.csv",
+   "how": "farthest FMF station (km)"
+  },
+  "t.first": {
+   "value": "19:57:38",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "t.last_window": {
+   "value": "00:53:41",
+   "source": "catalogs/fmf_final",
+   "how": ""
+  },
+  "t.box_swarm": {
+   "value": "40",
+   "source": "catalogs/imsil_dl_catalog.csv",
+   "how": "in-box DL events 19:30-05:00 UTC"
+  },
+  "mag.n_above_floor": {
+   "value": "95",
+   "source": "this notebook (E3)",
+   "how": "detections whose E3 ratio exceeds the pre-P noise reading by more than 0.3 log units"
+  },
+  "t.span_h": {
+   "value": "5",
+   "source": "catalogs/fmf_final",
+   "how": "hours from the first detection to the last in the window, rounded"
+  },
+  "mag.n_noise": {
+   "value": "140",
+   "source": "this notebook (E3)",
+   "how": "ratio within 0.3 log units of its own pre-P noise reading"
+  },
+  "mag.mw_ref": {
+   "value": "2.3",
+   "source": "Park scale",
+   "how": ""
+  },
+  "mag.mw_min": {
+   "value": "0.4",
+   "source": "this notebook (E3)",
+   "how": ""
+  },
+  "geo.strike": {
+   "value": "268.7",
+   "source": "this notebook (plane of reference_25m_fmf)",
+   "how": ""
+  },
+  "geo.dip": {
+   "value": "88.2",
+   "source": "this notebook",
+   "how": ""
+  },
+  "geo.rms": {
+   "value": "7.4",
+   "source": "this notebook",
+   "how": "RMS distance from the plane (m)"
+  },
+  "geo.n99": {
+   "value": "15",
+   "source": "this notebook",
+   "how": "99th percentile of |distance from the plane| (m)"
+  },
+  "geo.len": {
+   "value": "241",
+   "source": "this notebook",
+   "how": "full along-strike range (m)"
+  },
+  "geo.hgt": {
+   "value": "235",
+   "source": "this notebook",
+   "how": "full up-dip range (m)"
+  },
+  "mig.D05": {
+   "value": "0.50",
+   "source": "this notebook = notebooks/11 (asserted)",
+   "how": "0.5 h window"
+  },
+  "mig.D05_ci": {
+   "value": "0.42–0.74",
+   "source": "this notebook",
+   "how": "bootstrap 95 %"
+  },
+  "mig.D1": {
+   "value": "0.59",
+   "source": "this notebook = notebooks/11 (asserted)",
+   "how": "1 h window"
+  },
+  "mig.D1_ci": {
+   "value": "0.42–0.67",
+   "source": "this notebook",
+   "how": "bootstrap 95 %"
+  },
+  "mig.D2": {
+   "value": "0.63",
+   "source": "this notebook = notebooks/11 (asserted)",
+   "how": "2 h window"
+  },
+  "mig.D2_ci": {
+   "value": "0.48–0.69",
+   "source": "this notebook",
+   "how": "bootstrap 95 %"
+  },
+  "mig.bf_t0": {
+   "value": "24.3",
+   "source": "notebooks/11_migration_diffusion_backfront.ipynb",
+   "how": ""
+  },
+  "mig.bf_t0_ci": {
+   "value": "1.0–25.9",
+   "source": "notebooks/11_migration_diffusion_backfront.ipynb",
+   "how": ""
+  },
+  "mig.bf_in": {
+   "value": "12 of 65",
+   "source": "notebooks/11_migration_diffusion_backfront.ipynb",
+   "how": ""
+  },
+  "long.n_days": {
+   "value": "3,198",
+   "source": "docs/decisions.csv D25",
+   "how": ""
+  },
+  "long.n": {
+   "value": "6,369",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "long.n_swarm": {
+   "value": "212",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "long.n_burst": {
+   "value": "6,135",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "long.n_other": {
+   "value": "22",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "long.nA": {
+   "value": "3",
+   "source": "evidence",
+   "how": ""
+  },
+  "long.nB": {
+   "value": "12",
+   "source": "evidence",
+   "how": ""
+  },
+  "long.nC": {
+   "value": "7",
+   "source": "evidence",
+   "how": ""
+  },
+  "long.B_first": {
+   "value": "September 2023",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "long.B_last": {
+   "value": "March 2025",
+   "source": "long-scan catalog",
+   "how": ""
+  },
+  "a.cc_S_med": {
+   "value": "0.43",
+   "source": "this notebook (Figure 6)",
+   "how": "median S-window correlation over the shown channels"
+  },
+  "a.cc_S_rng": {
+   "value": "−0.11–0.92",
+   "source": "this notebook (Figure 6)",
+   "how": ""
+  },
+  "a.cc_imsb": {
+   "value": "0.80–0.92",
+   "source": "this notebook (Figure 6)",
+   "how": ""
+  },
+  "a.cc_mid": {
+   "value": "0.24–0.67",
+   "source": "this notebook (Figure 6)",
+   "how": "JEU2, GKSA, MALA"
+  },
+  "a.cc_low": {
+   "value": "0.11",
+   "source": "this notebook (Figure 6)",
+   "how": "largest |CC| at SUCA and JLSA"
+  },
+  "a.A1": {
+   "value": "14:17:35",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A1_ntpl": {
+   "value": "3",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A1_tpl": {
+   "value": "400001",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A2": {
+   "value": "14:17:39",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A2_ntpl": {
+   "value": "7",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A2_tpl": {
+   "value": "400007",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A3": {
+   "value": "14:43:15",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A3_ntpl": {
+   "value": "6",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.A3_tpl": {
+   "value": "400007",
+   "source": "catalogs/fmf_long_2019A.csv",
+   "how": ""
+  },
+  "a.south": {
+   "value": "266–305",
+   "source": "this notebook = notebooks/15 (asserted)",
+   "how": "distance south of the 2025 plane (m)"
+  },
+  "a.n99": {
+   "value": "16",
+   "source": "this notebook",
+   "how": "99 % of the 25 m events within this distance of the plane (m)"
+  },
+  "a.nsta_links": {
+   "value": "8–9",
+   "source": "runs/hypodd_fmf_2019A_full/waveforms_100km (inherited picks per event)",
+   "how": ""
+  },
+  "a.ey95": {
+   "value": "20–35",
+   "source": "catalogs/imsil_fmf_relocated_2019A_full.csv",
+   "how": "N-S 95 % half-widths (m)"
+  },
+  "a.ex95": {
+   "value": "83–130",
+   "source": "catalogs/imsil_fmf_relocated_2019A_full.csv",
+   "how": "E-W 95 % half-widths (m)"
+  },
+  "a.ez95": {
+   "value": "36–67",
+   "source": "catalogs/imsil_fmf_relocated_2019A_full.csv",
+   "how": ""
+  },
+  "a.along": {
+   "value": "+35 to +186",
+   "source": "this notebook",
+   "how": "along strike (m), east positive"
+  },
+  "a.up": {
+   "value": "−86 to −9",
+   "source": "this notebook",
+   "how": "up dip (m)"
+  },
+  "a.robust": {
+   "value": "256–328",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.sp_solo": {
+   "value": "38",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.sp_res": {
+   "value": "24",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.sp_joint": {
+   "value": "168",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.off_nawb": {
+   "value": "93",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.off_kch2": {
+   "value": "41",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "a.off_jlsa": {
+   "value": "38",
+   "source": "notebooks/15_relocation_2019_events.ipynb",
+   "how": ""
+  },
+  "pk.share": {
+   "value": "47\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.share_P1": {
+   "value": "47\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.share_P2": {
+   "value": "44\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.share_P3": {
+   "value": "55\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.share_P4": {
+   "value": "64\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.mag_rms": {
+   "value": "0.11",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.below": {
+   "value": "71–95\\%",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.extra": {
+   "value": "263",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.below_mw": {
+   "value": "0.8",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.depth_hyp": {
+   "value": "13.79",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.dd_sep": {
+   "value": "520",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.ext": {
+   "value": "237 × 225",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.thick": {
+   "value": "37",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.D_ours": {
+   "value": "0.34–0.40",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.D_theirs": {
+   "value": "0.45–0.61",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.spear": {
+   "value": "0.59",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.spear_p": {
+   "value": "0.004",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.t_dist": {
+   "value": "−14 / −22",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.t_time": {
+   "value": "−2.1 / +2.8",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.b_ours": {
+   "value": "1.33 ± 0.18",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.b_c2": {
+   "value": "1.53–1.02",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.depth_dd": {
+   "value": "12.8–13.0",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.epi_kim1983": {
+   "value": "N −128 m, E −148 m",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "a.A1_ratio": {
+   "value": "0.025",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.A1_ml": {
+   "value": "0.3",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.A2_ratio": {
+   "value": "0.043",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.A2_ml": {
+   "value": "0.5",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.A3_ratio": {
+   "value": "0.024",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.A3_ml": {
+   "value": "0.3",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.kma_share": {
+   "value": "16\\% / 43\\% / 100\\%",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "b.jasa_x": {
+   "value": "4.6",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "b.imsb_x": {
+   "value": "2.0",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "b.sim": {
+   "value": "0.39 (0.25–0.76)",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "pk.n_theirs": {
+   "value": "498",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.sta_theirs": {
+   "value": "60",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.band_theirs": {
+   "value": "10–40",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.depth_theirs": {
+   "value": "13.6–14.0",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.b_theirs": {
+   "value": "1.40 ± 0.07",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.plane_theirs": {
+   "value": "89° / 89°",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "pk.ext_theirs": {
+   "value": "300 × 350",
+   "source": "notebooks/12_park2026_comparison.ipynb",
+   "how": ""
+  },
+  "a.bin1": {
+   "value": "0.016–0.032",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "a.bin2": {
+   "value": "0.032–0.050",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "rel.d6": {
+   "value": "6.2",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "prev.n_ev": {
+   "value": "18",
+   "source": "notebooks/04_relocation_and_25m_reference.ipynb",
+   "how": ""
+  },
+  "prev.n_sta": {
+   "value": "11",
+   "source": "notebooks/03_full_DL_catalog.ipynb",
+   "how": ""
+  },
+  "long.stack_n": {
+   "value": "400",
+   "source": "docs/decisions.csv D25",
+   "how": ""
+  },
+  "p.haenam_mad": {
+   "value": "12",
+   "source": "fmf/config.py (frozen Haenam code)",
+   "how": ""
+  },
+  "p.haenam_floor": {
+   "value": "0.20",
+   "source": "fmf/config.py (frozen Haenam code)",
+   "how": ""
+  },
+  "b.jasa_share": {
+   "value": "0.182",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "b.kma20": {
+   "value": "23",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  },
+  "b.kma20_coinc": {
+   "value": "0",
+   "source": "notebooks/14_long_candidates_followup.ipynb",
+   "how": ""
+  }
+ }
+}

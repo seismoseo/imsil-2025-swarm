@@ -1,0 +1,200 @@
+ HYPOINVERSE 2000
+ 6/2014 VERSION 1.40 (geoid depth possible)                            
+ RUN ON Sat Feb  7 00:27:27 2026      RUN LABEL= 
+ PROCESSING DOMAIN=NC  PROCESSING VERSION=01
+
+
+ CRUST MODEL  1:  Kim et al. (2011) P wave velo
+
+ S-MODEL: S-ARRIVALS USE MODEL  2 ( Ki) INSTEAD OF THIS ONE.
+ HOMOGENEOUS LAYER MODEL WITH THE FOLLOWING VELOCITIES AND LAYER TOPS:
+    VELOCITY  DEPTH
+  1   5.630   0.000
+  2   6.170   7.290
+  3   6.580  20.700
+  4   7.770  31.300
+
+ CRUST MODEL  2:  Kim et al. (2011) S wave velo
+
+ HOMOGENEOUS LAYER MODEL WITH THE FOLLOWING VELOCITIES AND LAYER TOPS:
+    VELOCITY  DEPTH
+  1   3.400   0.000
+  2   3.600   7.290
+  3   3.700  20.700
+  4   4.450  31.300
+
+ TEST PARAMETERS:
+   -ITERATION AND CONVERGENCE-     -WEIGHTING AND ERRORS-     -MISCELLANEOUS-
+       50=ITRLIM   0.900=DAMP    50.000=DISCUT   0.120=RMSCUT       4=MINSTA
+    0.040=DQUIT    0.001=DRQT     1.000=DISW1    2.000=RMSW1        0=NET
+    7.000=DXFIX    0.012=EIGTOL   3.000=DISW2    4.000=RMSW2 
+   30.000=DZMAX    0.020=RBACK        4=ITRDIS       4=ITRRES  10.000=ZTR
+    0.500=DZAIR    0.600=BACFAC   1.000=SWT      0.150=RDERR 
+                                                 1.000=ERCOF
+
+      ------DURATION MAG CONSTANTS------       -DELAYS & MISC-    -STATIONS-
+   -5.200=FMA1    -0.905=FMA2   -1.0300=DMA0         F=LMULT        F=ATTEN
+    3.890=FMB1     2.026=FMB2    2.1000=DMA1         T=CODAWT       4=SITE-LET
+    0.013=FMZ1     0.013=FMZ2    0.0000=DMA2         F=LJUNK        0=NET-LET
+    0.004=FMD1     0.004=FMD2    0.0000=DMZ                         0=COMP-LET
+    0.000=FMF1     0.000=FMF2    1.0000=DMGN  
+    0.000=FMGN   210.000=FMBRK   0.0027=DMLIN 
+   0.0000=DCOF1    0.000=DBRK1        1=LOGA0 
+   0.0000=DCOF2    0.000=DBRK2 
+   0.0000=ZCOF     0.000=ZBRK  
+
+    --- MAGNITUDE LABELS & COMPONENTS ---
+    FMAG1: LABEL=   ALL COMPS=
+    FMAG2: LABEL=    NO COMPS=
+    XMAG1: LABEL=   ALL  TYPE=ALL  COMPS=
+    XMAG2: LABEL=    NO  TYPE=ALL  COMPS=
+    FMAG1 MAGSEL=1  FMAG2 MAGSEL=1
+
+ INPUT FILES:
+ COMMANDS:    hypinst                                                     
+                                                                          
+ STATIONS:    STA/Imsil_hyp.sta                                           STATION FORMAT CODE= 3
+ DELAYS:                                                                   
+ ATTENUATIONS:                                                             
+ CAL FACTORS:                                                              
+ FMAG CORRECT:                                                             
+ XMAG CORRECT:                                                             
+
+ PHASES:       PHS/Imsil.phs                                               
+        PHASE FORMAT CODE= 3, TERMINATOR FORMAT CODE=1
+ HOMOGENEOUS LAYER CRUST 1:  kim2011/kim2011_p.crh                                       
+ HOMOGENEOUS LAYER CRUST 2:  kim2011/kim2011_s.crh                                       
+
+ OUTPUT FILES: (T IF APPENDED TO)
+ (F) PRINTOUT:    kim2011/Imsil.prt                                           
+ (F) SUMMARY:     kim2011/Imsil.sum                                           FORMAT CODE=4
+ (F) ARCHIVE:     kim2011/Imsil.arc                                           ARCHIVE FORMAT CODE= 1
+
+ ####################################################################################
+   2 NOV 2025, 20:38  SEQUENCE NO.    1, ID NO.    200000
+                                                        ADJUSTMENTS (KM)
+  I ORIGIN   LAT N     LON W     Z   NWR  RMS    DT    DLAT   DLON    DZ    RR NF MOD
+  1 36.03  35 37.05  127E16.83 10.00  95 1.22 -0.384 -6.538 -1.060  0.000 6.623 3  Ki
+ FREE DEPTH
+  2 35.65  35 33.52  127E17.53 10.00  95 0.31 -0.297 -0.738 -0.219  4.088 4.160 4  Ki
+  3 35.35  35 33.12  127E17.68 14.09  95 0.10 -0.078 -0.143 -0.048  0.292 0.329 4  Ki
+ BEGIN MAIN DISTANCE WEIGHTING
+ BEGIN RESIDUAL WEIGHTING
+  4 35.27  35 33.05  127E17.71 14.38  94 0.07 -0.007 -0.023  0.005  0.023 0.033 4  Ki
+  5 35.27  35 33.03  127E17.71 14.40  94 0.07 -0.001 -0.003 -0.001  0.000 0.003 4  Ki
+
+              EIGENVALUES
+     (11.462  1.540  1.435  0.585)
+      EIGENVECTORS OF ADJUSTMENT                COVARIANCE             ERRORS
+ OT  (-0.997 -0.014  0.009 -0.070) (   0.001  -0.000  -0.000  -0.005)   0.024
+ LAT ( 0.002 -0.719 -0.694  0.033) (  -0.000   0.012   0.001   0.002)   0.110
+ LON (-0.015  0.694 -0.719 -0.013) (  -0.000   0.001   0.012  -0.001)   0.110
+ Z   (-0.070  0.032  0.014  0.997) (  -0.005   0.002  -0.001   0.078)   0.279
+ ERROR ELLIPSE: <SERR AZ DIP>-<   0.28  23 87>-<   0.11 315  0>-<   0.11 225  1>
+ ------------------------------------------------------------------------------------
+ YEAR MO DA  --ORIGIN--  --LAT N-  --LON W--  DEPTH-M RMS   ERH   ERZ  XMAG1 FMAG1 PMAG GEOID-DEP
+ 2025-11-02  2038 35.27  35 33.03  127E17.71  14.40  0.07  0.11  0.28                      14.40
+                                                                                          SOURCE
+ NSTA NPHS  DMIN MODEL GAP ITR NFM NWR NWS NVR REMRKS-AVH  N.XMG-XMMAD-T   N.FMG-FMMAD-T  L F X
+   95   95   6.9   KiS  21   5   0  94  46  95                                                 
+
+ XMAG2-N.XMG2-XMMAD-T-S  FMAG2-N.FMG2-FMMAD-T-S  PREF.MAG-N.PMAG-PRMAD-T DEPDAT NS ZT TYP
+                                                                              0  0  M CRH
+ REGION=                          
+
+ STA NET COM L CR DIST AZM  AN P/S WT   SEC (TOBS -TCAL -DLY  =RES)  WT   SR  INFO  CAL  DUR-W-FMAG-T -AMP-U-PER-W-XMAG-T DE
+ IMSB KS HHZ       6.9 353 153 IP     38.03  2.76  2.71 0.00  0.05  2.71     0.189                                           
+        S                      ES  1  39.82  4.55  4.57 0.00 -0.02  2.04S    0.433                                           
+ NAWB KS HHZ      17.0 147 127 IP     39.08  3.81  3.78 0.00  0.03  2.71     0.129                                           
+        S                      ES  1  41.59  6.32  6.37 0.00 -0.05  2.04S    0.256                                           
+ MALA KS HHZ      22.0  12 119 IP  1  39.76  4.49  4.46 0.00  0.03  2.04     0.066                                           
+        S                      ES  2  42.78  7.51  7.52 0.00 -0.01  1.36S    0.081                                           
+ JASA KS HHZ      23.6  59 117 IP  1  39.98  4.71  4.68 0.00  0.03  2.04     0.061                                           
+        S                      ES  2  43.15  7.88  7.89 0.00 -0.01  1.36S    0.073                                           
+ SUCA KS HHZ      24.2 216 116 IP  1  40.04  4.77  4.77 0.00  0.00  2.04     0.074                                           
+        S                      ES  2  43.31  8.04  8.05 0.00 -0.01  1.36S    0.089                                           
+ JEU2 KS HHZ      33.8 260 108 IP  1  41.45  6.18  6.20 0.00 -0.02  2.04     0.086                                           
+        S                      ES  2  45.68 10.41 10.47 0.00 -0.06  1.36S    0.080                                           
+ TAIA KS HHZ      34.7 289 107 IP  1  41.61  6.34  6.35 0.00 -0.01  2.04     0.091                                           
+        S                      ES  2  45.98 10.71 10.73 0.00 -0.02  1.36S    0.082                                           
+ CHOA KS HHZ      36.0 334 107 IP  1  41.81  6.54  6.54 0.00 -0.00  2.04     0.090                                           
+        S                      ES  2  46.32 11.05 11.06 0.00 -0.01  1.36S    0.078                                           
+ GKSA KS HHZ      36.1 191 107 IP  1  41.82  6.55  6.56 0.00 -0.01  2.04     0.081                                           
+        S                      ES  2  46.36 11.09 11.09 0.00  0.00  1.36S    0.075                                           
+ JLSA KS HHZ      38.5 123 105 IP  1  42.22  6.95  6.94 0.00  0.01  2.04     0.081                                           
+        S                      ES  2  47.03 11.76 11.73 0.00  0.03  1.36S    0.072                                           
+ DGHA KS HHZ      40.3  38 104 IP  1  42.45  7.18  7.21 0.00 -0.03  2.04     0.082                                           
+        S                      ES  2  47.33 12.06 12.19 0.00 -0.13  1.36S    0.065                                           
+ HAMB KS HHZ      41.1  95 104 IP  1  42.77  7.50  7.34 0.00  0.16  2.04     0.081                                           
+        S                      ES  2  47.59 12.32 12.41 0.00 -0.09  1.36S    0.068                                           
+ WICA KS HHZ      50.1  66 101 IP  1  44.03  8.76  8.76 0.00 -0.00  2.04     0.089                                           
+        S                      ES  2  49.94 14.67 14.83 0.00 -0.16  1.36S    0.067                                           
+ JAGA KS HHZ      50.9 240 101 IP  2  44.11  8.84  8.89 0.00 -0.05  1.36     0.043                                           
+ KWJU KS HHZ      51.4 213 100 IP  2  44.26  8.99  8.97 0.00  0.02  1.36     0.042                                           
+        S                      ES  3  50.37 15.10 15.19 0.00 -0.09  0.68S    0.018                                           
+ KWJ2 KS HHZ      51.4 213 100 IP  2  44.23  8.96  8.97 0.00 -0.01  1.36     0.042                                           
+        S                      ES  3  50.40 15.13 15.19 0.00 -0.06  0.68S    0.018                                           
+ SACA KS HHZ      55.1 105 100 IP  2  44.70  9.43  9.57 0.00 -0.14  1.35     0.041                                           
+        S                      ES  3  51.43 16.16 16.21 0.00 -0.05  0.67S    0.018                                           
+ PUAA KS HHZ      56.0 291  99 IP  2  44.96  9.69  9.71 0.00 -0.02  1.34     0.048                                           
+        S                      ES  3  51.73 16.46 16.45 0.00  0.01  0.67S    0.021                                           
+ BAU  KS HHZ      56.8 151  99 IP  2  45.14  9.87  9.83 0.00  0.04  1.34     0.042                                           
+        S                      ES  3  51.84 16.57 16.65 0.00 -0.08  0.67S    0.019                                           
+ KCH2 KS HHZ      57.0  82  99 IP  2  45.23  9.96  9.86 0.00  0.10  1.34     0.041                                           
+        S                      ES  3  51.88 16.61 16.71 0.00 -0.10  0.67S    0.017                                           
+ DUSB KS HHZ      57.7  48  99 IP  2  45.23  9.96  9.97 0.00 -0.01  1.34     0.041                                           
+        S                      ES  3  52.00 16.73 16.90 0.00 -0.17  0.67S    0.017                                           
+ SCHA KS HHZ      59.3 173  99 IP  2  45.44 10.17 10.23 0.00 -0.06  1.33     0.042                                           
+        S                      ES  3  52.45 17.18 17.34 0.00 -0.16  0.66S    0.018                                           
+ IKSA KS HHZ      60.2 340  98 IP  2  45.58 10.31 10.38 0.00 -0.07  1.32     0.047                                           
+        S                      ES  3  52.69 17.42 17.61 0.00 -0.19  0.66S    0.020                                           
+ KMSB KS HHZ      63.9  15  98 IP  2  46.27 11.00 10.96 0.00  0.04  1.29     0.043                                           
+        S                      ES  3  53.88 18.61 18.61 0.00 -0.00  0.65S    0.017                                           
+ BLGA KS HHZ      65.3   0  98 IP  2  46.59 11.32 11.19 0.00  0.13  1.28     0.044                                           
+        S                      ES  3  54.26 18.99 19.00 0.00 -0.01  0.64S    0.018                                           
+ MNDB KS HHZ      65.9 191  98 IP  2  46.63 11.36 11.29 0.00  0.07  1.27     0.040                                           
+        S                      ES  3  54.43 19.16 19.17 0.00 -0.01  0.64S    0.017                                           
+ GOCB KS HHZ      67.1 251  97 IP  2  46.68 11.41 11.49 0.00 -0.08  1.26     0.042                                           
+        S                      ES  3  54.60 19.33 19.50 0.00 -0.17  0.63S    0.018                                           
+ SMWA KS HHZ      67.4 268  97 IP  2  46.77 11.50 11.53 0.00 -0.03  1.26     0.043                                           
+        S                      ES  3  54.75 19.48 19.58 0.00 -0.10  0.63S    0.018                                           
+ NAJA KS HHZ      72.1 217  97 IP  3  47.55 12.28 12.29 0.00 -0.01  0.60     0.009                                           
+        S                      ES  3  56.11 20.84 20.88 0.00 -0.04  0.60S    0.015                                           
+ HACA KSSHHZ      74.8 101  97 ES  3  56.76 21.49 21.60 0.00 -0.11  0.58S    0.014                                           
+ GWYB KS HHZ      76.4 151  96 IP  3  48.25 12.98 12.98 0.00  0.00  0.57     0.008                                           
+        S                      ES  3  57.22 21.95 22.05 0.00 -0.10  0.57S    0.014                                           
+ HMPA KS HHZ      76.5 234  96 IP  3  48.21 12.94 12.99 0.00 -0.05  0.57     0.008                                           
+ JGNA KS HHZ      77.1  61  96 IP  3  48.33 13.06 13.09 0.00 -0.03  0.56     0.008                                           
+        S                      ES  3  57.25 21.98 22.25 0.00 -0.27  0.53S    0.011                                           
+ NACA KS HHZ      77.6 306  96 IP  3  48.39 13.12 13.17 0.00 -0.05  0.56     0.009                                           
+        S                      ES  3  57.67 22.40 22.39 0.00  0.01  0.56S    0.016                                           
+ BLLA KS HHZ      77.6 168  96 IP  3  48.44 13.17 13.17 0.00 -0.00  0.56     0.008                                           
+        S                      ES  3  57.58 22.31 22.39 0.00 -0.08  0.56S    0.014                                           
+ HCNA KSSHHZ      79.3  88  96 ES  3  58.06 22.79 22.86 0.00 -0.07  0.54S    0.012                                           
+ YEGA KS HHZ      79.9 249  96 IP  3  48.78 13.51 13.54 0.00 -0.03  0.54     0.008                                           
+        S                      ES  3  58.19 22.92 23.02 0.00 -0.10  0.54S    0.013                                           
+ JINA KSSHHZ      80.1 122  96 ES  3  58.21 22.94 23.08 0.00 -0.14  0.54S    0.013                                           
+ CGPA KS HHZ      80.4 202  96 IP  3  49.03 13.76 13.61 0.00  0.15  0.54     0.007                                           
+        S                      ES  3  58.52 23.25 23.14 0.00  0.11  0.54S    0.012                                           
+ SECA KS HHZ      82.0 324  96 IP  3  49.16 13.89 13.87 0.00  0.02  0.52     0.008                                           
+ LIWA KSSHHZ      82.6  20  96 ES  3  59.12 23.85 23.75 0.00  0.10  0.52S    0.012                                           
+ NOSA KS HHZ      82.7 350  96 IP  3  49.19 13.92 14.00 0.00 -0.08  0.51     0.007                                           
+        S                      ES  3  58.97 23.70 23.80 0.00 -0.10  0.51S    0.013                                           
+ YALB KS HHZ      83.7  76  95 IP  3  49.49 14.22 14.15 0.00  0.07  0.51     0.006                                           
+        S                      ES  3  59.22 23.95 24.06 0.00 -0.11  0.51S    0.011                                           
+ MND  KS HHZ      83.7 290  95 IP  3  49.57 14.30 14.16 0.00  0.14  0.51     0.007                                           
+        S                      ES  3  59.60 24.33 24.07 0.00  0.26  0.48S    0.011                                           
+ BUYB KS HHZ      87.0 338  95 IP  3  49.90 14.63 14.68 0.00 -0.05  0.47     0.006                                           
+        S                      ES  3  59.84 24.57 24.96 0.00 -0.39  0.05S    0.000                                           
+ TEJ2 KSSHHZ      91.4   4  95 ES  3  61.59 26.32 26.20 0.00  0.12  0.43S    0.009                                           
+ EURB KSSHHZ      93.6 105  95 ES  3  62.00 26.73 26.81 0.00 -0.08  0.41S    0.007                                           
+ GICA KS HHZ      93.7  50  95 IP  3  51.09 15.82 15.77 0.00  0.05  0.41     0.004                                           
+        S                      ES  3  61.93 26.66 26.83 0.00 -0.17  0.41S    0.007                                           
+ CPR2 KS HHZ      96.3  39  95 IP  3  51.47 16.20 16.18 0.00  0.02  0.38     0.003                                           
+ SIJA KS HHZ      97.1 222  95 IP  3  51.67 16.40 16.31 0.00  0.09  0.37     0.003                                           
+        S                      ES  3  63.10 27.83 27.76 0.00  0.07  0.37S    0.006                                           
+ CJDB KS HHZ      97.9 316  94 IP  3  51.81 16.54 16.44 0.00  0.10  0.36     0.004                                           
+ YESA KS HHZ      98.7 155  94 IP  3  51.94 16.67 16.57 0.00  0.10  0.35     0.003                                           
+ OKCB KS HHZ      99.1  26  94 IP  3  51.93 16.66 16.64 0.00  0.02  0.35     0.003                                           
+        S                      ES  3  63.66 28.39 28.32 0.00  0.07  0.35S    0.005                                           
+ NAHA KS HHZ      99.7 144  94 IP  3  51.85 16.58 16.73 0.00 -0.15  0.34     0.003                                           

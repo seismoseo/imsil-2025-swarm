@@ -1,0 +1,4 @@
+origin,year,doy,template_cuspid,template_idx,cc,n_present,n_templates,self_detection,is_reference,reference_event_id,reference_offset_s,is_new,n_config_segments
+2019-04-15 14:17:35.472001,2019,105,400001,1,0.2603181600570678,9,3,False,False,,,True,1.0
+2019-04-15 14:17:39.522001,2019,105,400007,7,0.4348796010017395,7,7,False,False,,,True,1.0
+2019-04-15 14:43:15.432001,2019,105,400007,7,0.39734548330307,7,6,False,False,,,True,1.0

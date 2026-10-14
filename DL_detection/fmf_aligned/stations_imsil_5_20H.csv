@@ -1,0 +1,23 @@
+network,station,horizontals,s_exclude,note
+KS,IMSB,1,0,S on N/E; 6.9 km; HH
+KS,NAWB,0,0,S on Z (D12): KMA RESP epoch starts 2025-09-16 (inside the scan period); 17.0 km; HH
+KS,SIDA,1,0,S on N/E; 19.5 km; HG
+KS,MALA,1,0,S on N/E; 22.1 km; HG
+KS,JASA,1,0,S on N/E; 23.6 km; HG
+KS,SUCA,1,0,S on N/E; 24.2 km; HG
+KS,JEU2,1,0,S on N/E; 33.7 km; EL
+KS,TAIA,1,0,S on N/E; 34.7 km; HG
+KS,CHOA,1,0,S on N/E; 36.1 km; HG
+KS,GKSA,1,0,S on N/E; 36.2 km; HG
+KS,JLSA,1,0,S on N/E; 38.5 km; HG
+KS,DGHA,1,0,S on N/E; 40.3 km; HG
+KS,HAMB,1,0,S on N/E; 41.0 km; HH
+KS,WICA,1,0,S on N/E; 50.0 km; HG
+KS,JAGA,1,0,S on N/E; 50.8 km; HG
+KS,KWJ2,0,0,S on Z (D12): KMA RESP epoch starts 2025-10-28 (inside the scan period); 51.4 km; HH
+KS,SACA,1,0,S on N/E; 55.0 km; HG
+KS,PUAA,1,0,S on N/E; 56.0 km; HG
+KS,BAU,1,0,S on N/E; 56.8 km; EL
+KS,KCH2,1,0,S on N/E; 56.9 km; EL
+KS,DUSB,1,0,S on N/E; 57.7 km; HH
+KS,SCHA,1,0,S on N/E; 59.4 km; HG

@@ -1,0 +1,7 @@
+[templates] STATION_LIST stations_imsil_5_20H.csv: 22/22 stations carry picks; S on horizontals at 20 of them, S excluded at 0, on Z elsewhere
+[templates] 28 candidate events (sequences ('imsil',)); 22 stations x 3 comps (picks in >= 8 templates, present in continuous)
+  by net: {'KS': 22}
+  channel mix: {'HH': 5, 'HG': 14, 'EL': 3}
+[templates] 127 (station,comp,day) groups to read
+[templates] 28 templates kept; channel fill 63.1%; median live channels/template 44
+[templates] wrote /home/msseo/works/72.2025_Imsil_swarm/DL_detection/fmf/templates_cache/imsil_templates_imsil_5_20H.npz  (28 tpl, 22 sta, 3 comp, L=400, from continuous)

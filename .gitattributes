@@ -1,0 +1,13 @@
+# Server addresses are replaced by placeholders in the committed files (git "redact" clean filter; see README).
+*.py filter=redact
+*.sh filter=redact
+*.ipynb filter=redact
+*.md filter=redact
+*.txt filter=redact
+*.csv filter=redact
+*.json filter=redact
+*.tsv filter=redact
+*.yml filter=redact
+*.yaml filter=redact
+*.inp filter=redact
+*.tex filter=redact

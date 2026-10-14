@@ -1,0 +1,32 @@
+{
+ "reference": "Imsil 2025 DL catalog, 25 m bootstrap reference (Haenam rule)",
+ "built": "2026-10-08T23:16:45",
+ "selection": "All E/N/depth (Q97.5-Q2.5)/2 finite and <= 25 m; calculated before rounding. No phase/station, ML, plane-distance or depth gate (the relocation itself used --min-depth as run).",
+ "counts": {
+  "relocated": 212,
+  "retained": 101,
+  "retained_KMA_listed": 0
+ },
+ "inputs": [
+  {
+   "name": "relocated",
+   "path": "catalogs/imsil_fmf_relocated.csv",
+   "sha256": "3c90a881722eeed314dd608fa3901aadf7b3b224e42dfd49fd1c3c5d57d6b996"
+  },
+  {
+   "name": "manifest",
+   "path": "runs/hypodd_fmf/event_manifest.csv",
+   "sha256": "c3261f56e45e0c229874354079f415d82b70eae6e9cf7ce7fc7dbe836aff36b2"
+  },
+  {
+   "name": "errors",
+   "path": "runs/hypodd_fmf/2.HypoDD/02.dt.cc/bootstrap_errors.csv",
+   "sha256": "87150152f21e2cd711564bb075e52de7a10f2bf44f78b389037878cc42f1b93c"
+  },
+  {
+   "name": "samples",
+   "path": "runs/hypodd_fmf/2.HypoDD/02.dt.cc/bootstrap_samples.npz",
+   "sha256": "0f2c0f65db7d8c324ce45ed488d6f9b91b18e5b292e5cd167ecf2dd8484dc31e"
+  }
+ ]
+}

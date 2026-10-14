@@ -1,0 +1,55 @@
+{
+  "response_mode": "master_first",
+  "recipe": "Prior Buan KS/KG processing plus prior Haenam JU full-SEED-ID extension; full-period original response epochs",
+  "distance": "SAC epicentral distance preserved to reproduce previous recipe; hypocentral timing uses joint depth",
+  "gates": "SNR >=2; median H-preferred/V-fallback station ML; primary >=3 picked measured stations; 1/2 station results are sensitivity estimates",
+  "n_events": 35,
+  "n_ML3": 8,
+  "n_ML1": 14,
+  "waveforms": "Read in place; per-event SHA256 of filename/size/mtime signatures; JU files additionally content-hashed",
+  "inputs": [
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/local_magnitudes/full_period/full_magnitudes.py",
+      "sha256": "b0655727908db58fb80078e4eeb682c5e83ba7cb67a90919e18cac6040639661"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/local_magnitudes/haenam_magnitudes.py",
+      "sha256": "aee7f99e7ef4879cfdeb80a0b5e57f1a86d5106af4dd7857d9bb0325fbf6b35d"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/local_magnitudes/jn_magnitudes.py",
+      "sha256": "5fd3284a8fba8bcaf2f081dbe2f407bd3312918b90a3193e90e124e9cbd8e259"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/local_magnitudes/buan_sheen2018_snapshot.py",
+      "sha256": "6b7fa05ecb15762fdd184e5b77d360302ccad7b2dc94d615b396988ad6d72678"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/data/stations/JU_station.xml",
+      "sha256": "c15e1f7aadcc272c6a5749c8641784d118cd4204752ba9e4dd200e8a92cda1ca"
+    },
+    {
+      "path": "local_magnitudes/full_period/responses_full_period.xml",
+      "sha256": "d5a5b9ad80bfd79dbfe812c97a041914029181fe4b6ccacd8969815a22aa2589"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/data/stations/taup/kim1983_buan.npz",
+      "sha256": "a3bb6f14cd920cf7334bc63dc6eb058ff4e14089ee7fb91435cb8b5d50d5b37a"
+    },
+    {
+      "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/catalogs/imsil_dl_relocated.csv",
+      "sha256": "aed5035a8a7046cd0b5c44f7c9db484df5617c739a11f7dee32e9624da84b822"
+    }
+  ],
+  "postprocessing": "Undefined response-unit components quarantined; same amplitude recipe, SNR and station gates. Raw recipe outputs preserved.",
+  "response_units_quarantine": {
+    "components": 105,
+    "removed_station_measurements": 19,
+    "raw_ML3": 9,
+    "raw_ML1": 19
+  },
+  "response_validation_script": {
+    "path": "/home/msseo/works/72.2025_Imsil_swarm/DL_detection/local_magnitudes/full_period/validate_full_magnitudes.py",
+    "sha256": "3ae672d57a9f7ac5e64399c4804c82cc7274d2e6cffa895913c61b40943740be"
+  }
+}

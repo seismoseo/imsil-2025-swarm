@@ -1,0 +1,90 @@
+{
+ "inputs": [
+  {
+   "path": "station_table/stations.csv",
+   "sha256": "ceb48a5c3f519034343f2a3e622cc2a81dda90def11f31b74bba090bc90315eb"
+  },
+  {
+   "path": "catalogs/fmf_final/imsil_fmf_catalog.csv",
+   "sha256": "d4e53d71e9f87d8ffee5cde618892427c0437351f3b378355c66b45fcb77916f"
+  },
+  {
+   "path": "catalogs/reference_25m_fmf/DL_reference_25m.csv",
+   "sha256": "0915eff9c56ce64534d488f1e5616e36fc34581fd07a5dd810674611c5232168"
+  },
+  {
+   "path": "fmf_aligned/catalogs/fmf_imsil_catalog_imsil_5_20H_aligned_mad10_long_seg.csv",
+   "sha256": "72e4e7dc85d8542d2a7b5a18a95dd1ef1f97722a63bf522f3e8cb5e38b5bfa59"
+  }
+ ],
+ "Figure_01_station_map": [
+  {
+   "path": "station_table/stations.csv",
+   "sha256": "ceb48a5c3f519034343f2a3e622cc2a81dda90def11f31b74bba090bc90315eb"
+  },
+  {
+   "path": "fmf_aligned/stations_imsil_5_20H.csv",
+   "sha256": "79ef3ea1094dd0ce766584238f54aa6a15c7de00477d19a13fe1141e550d066a"
+  }
+ ],
+ "Figure_02_swarm_timeline": [
+  {
+   "path": "catalogs/fmf_final/imsil_fmf_catalog.csv",
+   "sha256": "d4e53d71e9f87d8ffee5cde618892427c0437351f3b378355c66b45fcb77916f"
+  },
+  {
+   "path": "catalogs/imsil_dl_catalog.csv",
+   "sha256": "24cac22defb083c48fe4c8abafc3cd3cc5e947ff9cc6f3ec26a05039e44d022f"
+  },
+  {
+   "path": "catalogs/imsil_kma24.csv",
+   "sha256": "0026ba5e8d06e4d2f42cc0264dd752fa0e937d7f699b1aadc1f8425e87e99334"
+  }
+ ],
+ "Figure_03_geometry": [
+  {
+   "path": "catalogs/reference_25m_fmf/DL_reference_25m.csv",
+   "sha256": "0915eff9c56ce64534d488f1e5616e36fc34581fd07a5dd810674611c5232168"
+  }
+ ],
+ "Figure_04_migration": [
+  {
+   "path": "catalogs/reference_25m_fmf/DL_reference_25m.csv",
+   "sha256": "0915eff9c56ce64534d488f1e5616e36fc34581fd07a5dd810674611c5232168"
+  }
+ ],
+ "Figure_05_long_scan": [
+  {
+   "path": "fmf_aligned/catalogs/fmf_imsil_catalog_imsil_5_20H_aligned_mad10_long_seg.csv",
+   "sha256": "72e4e7dc85d8542d2a7b5a18a95dd1ef1f97722a63bf522f3e8cb5e38b5bfa59"
+  },
+  {
+   "path": "catalogs/fmf_long_candidates_evidence.csv",
+   "sha256": "b9a1352e608f2d2fb91eea1b2a810e7a13a2bcda485f33c33f93258c34b1fe1f"
+  }
+ ],
+ "Figure_06_2019_waveforms": [
+  {
+   "path": "catalogs/fmf_long_2019A.csv",
+   "sha256": "cfe2a545af1807728c372bb8f73c323126856756f2e57928c78c185cf00d5fb2"
+  },
+  {
+   "path": "catalogs/imsil_templates_ref25.csv",
+   "sha256": "4acfe97ac4caf379ff3dd27fea6af880e8174766f941cfe1ff2b8b0bb3d7a158"
+  }
+ ],
+ "Figure_07_2019_location": [
+  {
+   "path": "catalogs/imsil_fmf_relocated_2019A_full.csv",
+   "sha256": "780525c729adfd7f2485c950f25f704eaa0b29e7a69c1d1b3de1b95404f75843"
+  },
+  {
+   "path": "catalogs/reference_25m_fmf_2019A_full/DL_reference_25m.csv",
+   "sha256": "cb673fe89acc922933520f9fae312baa0ec69a1c8ec3acb822d8502944a02cda"
+  },
+  {
+   "path": "runs/hypodd_fmf_2019A_full/solo_A1A3/hypoDD.reloc",
+   "sha256": "1c5c4ae9a5f1c54020f07d9cdb5450481d2c29e777a2668ef4626ae2e34861ca"
+  }
+ ]
+}

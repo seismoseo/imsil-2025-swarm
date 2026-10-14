@@ -1,0 +1,7 @@
+/home/msseo/works/72.2025_Imsil_swarm/DL_detection/fmf_aligned/build_catalog.py:71: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([pd.read_parquet(f) for f in files], ignore_index=True)
+daily files: 153  raw hits: 3658  after floor/gate: 3551
+excluded templates: 0  hits dropped: 0  detections lost: 0
+detections: 235  reference events: 28 of 28 in the scanned span (unmatched: 0; largest offset 0.002 s)  new: 207
+reference catalog: /home/msseo/works/72.2025_Imsil_swarm/DL_detection/catalogs/reference_25m/DL_reference_25m.csv
+-> /home/msseo/works/72.2025_Imsil_swarm/DL_detection/fmf_aligned/catalogs/fmf_imsil_catalog_imsil_5_20H_aligned_mad10_seg_nofloor.csv
